@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+
+}
+ body {
+    background-color: rgba(28, 11, 51, 1);
+    ;
+}
+a {
+    text-decoration: none;
+}
+/* header */
+#header {
+    
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+#header .logo {
+    display: flex;
+    color: #0CC3FF;
+}
+#header .logo img {
+    margin-right: 4px;
+    image-rendering:pixelated;
+}
+#header .logo .title-logo {
+    font-family: 'Catamaran', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+}
+#header .logo .title-logo > span {
+    color: rgb(223, 114, 11);
+}
+#header .nav {
+    display: flex;
+    list-style: none;
+}
+#header .nav .item-nav {
+    margin-right: 37px;
+
+}
+#header .nav .item-nav:first-child a {
+    color: #FCC263;
+}
+#header .nav .item-nav:first-child::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color:  #FCC263;
+}
+#header .nav .item-nav a {
+    text-transform: capitalize;
+    font-family: 'Catamaran', sans-serif;
+    color: #FFF7EA;
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+#header .nav .item-nav:last-child {
+    margin-right: 0px;
+}
+.btn {
+    padding: 10px 30px;
+    border: 1.4px solid #FFF7EA;
+border-radius: 22px;
+background-color: #1C0B33;
+color: #fff;
+text-transform: capitalize;
+}
