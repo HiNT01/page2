@@ -1,4 +1,8 @@
 @font-face {
     font-family: Merienda;
-    src: url("../font/GreatVibes-Regular.ttf");
+    src: url("../font/Merienda-Regular.ttf");
+}
+@font-face {
+    font-family: Catamaran ;
+    src: url("../font/Catamaran-VariableFont_wght.ttf");
 }

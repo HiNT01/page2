@@ -90,9 +90,7 @@ text-transform: capitalize;
     padding: 100px 68px;
     display: flex;
     justify-content: space-between;
-    /* background-image: url("../img/shape-group.png");
-    background-repeat: no-repeat;
-    background-size: cover; */
+    
     color: #332E27;
 }
 #banner .left {
@@ -156,7 +154,7 @@ text-transform: capitalize;
     align-items: center;
     justify-content: center;
 }
-#banner .mid .btn-bn{
+.btn-bn{
     padding: 12px 23px;
     background: #FFAF36;
     border-radius: 8px;
@@ -165,7 +163,7 @@ text-transform: capitalize;
     text-transform: capitalize;
     margin-right: 36px;
 }
-#banner .mid .btn-bn>img {
+.btn-bn>img {
     margin-left: 4px;
 }
 
@@ -257,14 +255,14 @@ text-transform: capitalize;
     padding: 0px 150px;
     text-align: center;
     color: #fff;
-    border: 1px solid red;
+    
 }
 .process .top {
     margin-bottom: 71px;
 
 }
 .process .top .title {
-    max-width: 330px;
+    max-width: 345px;
     font-family: 'Merienda';
     font-style: normal;
     font-weight: 400;
@@ -295,4 +293,174 @@ text-transform: capitalize;
     background-color: #fff;
     padding: 54px 26px 49px;
     color: #000;
+}
+.list-item .item-process > h3 {
+    margin-top: 20px;
+    margin-bottom: 11px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #212A41;   
+}
+list-item .item-process > p {
+    width: 100%;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #6E7984;  
+}
+/* inside */
+.inside {
+    width: 100%;
+    padding: 170px 150px;
+}
+.inside .title {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    color: #FFF7EA;  
+    margin-bottom: 71px; 
+    max-width: 443px;
+}
+.inside .content {
+    display: flex;
+    justify-content: space-between;
+}
+.inside .content .left {
+    width: 50%;
+    
+    position: relative;
+}
+.inside .content .left .img-small {
+    position: absolute;
+    top:20%;
+    left: 418px;
+    transform: translateX(-50%);
+}
+.inside .content .right {
+    width: 50%;
+  
+    color: #fff;
+    padding: 20px 90px 15px 0px;
+}
+.inside .content .right h3 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFF7EA; 
+    max-width: 422px;
+}
+.inside .content .right  p {
+    margin: 26px 0px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;   
+    max-width: 474px;
+}
+
+/* income */
+.stand-out {
+    width: 100%;
+    padding: 0px 150px;
+    color:#fff;
+}
+.stand-out .title {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px; 
+    text-align: center;
+    color: #FFF7EA;
+    margin-bottom: 130px; 
+}
+.stand-out .content {
+    display: flex;
+}
+.stand-out .content .left {
+    width: 50%;
+   
+}
+.stand-out .content .left  .item {
+    display: flex;
+    margin-bottom: 54px ;
+}
+.stand-out .content .left  .item .text {
+    margin-left: 21px;
+}
+.stand-out .content .left  .item .text h4 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 15PX;
+}
+.stand-out .content .left  .item .text p {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;   
+}
+.stand-out .content .right {
+    width: 50%;
+    position: relative;
+}
+.stand-out .content .right img {
+    float: right;
+}
+.stand-out .content .income {
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    top: 20%;
+    right: 370px;
+    color: #000;
+    padding: 17px 24px;
+    box-shadow: 12px 12px 28px rgba(33, 42, 65, 0.2);
+    border-radius: 8px;
+}
+.stand-out .content .income img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 13px;
+    
+}
+.stand-out .content .income .price h5 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E4394F;
+    text-transform: capitalize;
+       
+}
+.stand-out .content .income .price span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212A41;  
 }
