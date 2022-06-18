@@ -33,9 +33,9 @@ a {
 #header .logo .title-logo {
     font-family: 'Catamaran', sans-serif;
     font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
 }
 #header .logo .title-logo > span {
     color: rgb(223, 114, 11);
@@ -77,3 +77,93 @@ background-color: #1C0B33;
 color: #fff;
 text-transform: capitalize;
 }
+
+/* banner */
+#banner {
+    width: 100%;
+    padding: 100px 68px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    color: #332E27;
+}
+#banner .left {
+    
+    background-image: url("../img/Rectangle 18.png");
+    width: 281px;
+    height: 309px;
+    position: relative;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+#banner .text {
+    background-color: rgba(255, 157, 7, 1);
+    bottom: 0;
+    padding: 19px 21px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    border-radius: 0px 0px 12px 12px;
+    width: 100%;
+}
+#banner .text > .title {
+    display: flex;
+    align-items: center;
+}
+#banner .text > .title > span {
+    margin-left: 4px;
+}
+#banner .text p {
+    margin: 8px 0px;
+}
+#banner .text > span {
+    text-decoration: underline;
+}
+#banner .mid {
+    margin:0px 60px;
+    border: 1px solid green;
+    text-align: center;
+}
+#banner .mid .content {
+    width: 80%;
+    margin: auto;
+}
+
+#banner .mid .content  p {
+    margin-bottom: 30px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#banner .mid .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .right {
+    position: relative;
+    width: 281px;
+    height: 309px;
+    
+    background-image: url("../img/bohemian-man-with-his-arms-crossed 1.png");
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 12px;
+}
+#banner .right > img, #banner .left > img {
+    position: absolute;
+    top:55px;
+    transform: translateX(-50%);
+}
+
