@@ -170,4 +170,138 @@
     .process .list-item  .item-process:nth-child(2) {
         margin: 20px 0px;
     }
+    /* inside */
+    .inside {
+        margin-top: 20px;
+        width: 100%;
+        
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .inside .title {
+        font-size: 30px;
+    }
+    .inside .content {
+        display: block;
+    }
+    .inside .content .left {
+        width: 80%;
+    }
+    .inside .content .left img:first-child {
+        width: 100%;
+    }
+    .inside .content .left .img-small {
+        left: 300px;
+    }
+    .inside .content .right {
+        padding: 0;
+        width: 100%;
+    }
+    .inside .content .right h3 {
+        font-size: 30px;
+        max-width: 100%;
+    }
+    .inside .content .right .btn-bn {
+        margin: auto;
+    }
+    /* stand-out */
+    .stand-out {
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .stand-out .content {
+        display: block;
+        height: auto;
+    }
+    .stand-out .content .left {
+        width: 100%;
+    }
+    .stand-out .content .right {
+        width: 100%;
+        
+    }
+    .stand-out .content .right > img  { 
+        width: 100%;
+    }
+    .stand-out .content .right .income {
+        top: -20px;
+        left: -10px;
+        width: 150px;
+    }
+    /* studies  */
+    .studies {
+        padding: 0px 20px;
+        margin-top: 525px;
+
+    }
+    /* saying */
+    .saying {
+        margin-top: 0px;
+    }
+    .saying >h2 {
+        font-size: 30px;
+    }
+    .saying .bottom >img {
+        width: 100%;
+
+    }
+    .saying .bottom .content {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: auto;
+    }
+    .saying .bottom .around {
+        top: 232px;
+        left: 223px;
+        background-color: pink;
+        
+    }
+    /* brand */
+    .brand {
+        margin-top: 0px;
+        
+    }
+    .brand .list-brand {
+        display: block;
+        
+    }
+    .brand .list-brand .item-brand {
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+    }
+    /* footer */
+    .footer {
+        margin-top: 50px;
+        padding-right: 20px;
+    }
+    .footer .top {
+        display: block;
+    }
+    .footer .top .left {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .footer .top {
+        width: 100%;
+        
+    }
+    .footer .top .menu-footer {
+        width: 100%;
+        display:block ;
+    }
+    .footer .top .menu-footer .item-mn-ft:first-child {
+        width: 100%;
+        margin : 40px 0px;
+    }
+    .footer .top .menu-footer .item-mn-ft:nth-child(2){
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer > img {
+        width: 100%;
+    }    
+ 
 }
