@@ -63,9 +63,46 @@
     .footer {
         padding-left: 20px;
     }
+    .footer .top .left {
+        margin-right: 100px;
+    }
 }
 /* mobile */
 @media only screen and (max-width:768px) {
+    
+    #header .logo {
+        display: none;
+
+    }
+    #header {
+        margin: 0;
+        padding: 0px 20px;
+        justify-content: space-between;
+        border: none;
+    }
+    #header .nav {
+        height: auto;
+        display: block;
+        background-color: #ccc;
+        position: absolute;
+        top: 39px;
+        left: 0;
+        z-index: 1;
+        padding-left: 10px;
+        padding-top: 10px;
+        display: none;
+    }
+    #header .nav .item-nav {
+        height: 39px;
+        
+    }
+    
+   
+    .btn-menu {
+        display: block;
+        order: -1;
+    }
+    /* banner */
     #banner {
         /* padding: 100px 20px; */
         flex-wrap: wrap;
@@ -73,5 +110,64 @@
     #banner .mid {
         order: 5;
         margin-top: 20px;
+        width: 100%;
+    }
+    #banner .content .mid img {
+        width: 100% !important;
+       
+    }
+    #banner .left{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #banner .right {
+        width: 100%;
+        margin: auto;
+    }
+    /* intro */
+    .intro {
+        display: block;
+        margin: 0 10px;
+        padding:10px;
+    }
+    .intro .left {
+        width: 100%;
+    }
+    .intro .left::after {
+        display: none;
+    }
+    .intro .left > p {
+        max-width: 100%;
+    }
+    .intro .list-item {
+        width: 100%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .intro .list-item .item {
+        width: 100%;
+        display: flex;
+        
+    }
+    .intro .list-item .item > img {
+        margin-right: 10px;
+    }
+    .intro .list-item .item:nth-child(2) {
+        margin: 10px 0px;
+    }
+    /* process */
+    .process .top p {
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    .process .list-item {
+        display: block;
+    }
+    .process .list-item  .item-process {
+        width: 100%;
+    }
+    .process .list-item  .item-process:nth-child(2) {
+        margin: 20px 0px;
     }
 }
